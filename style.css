@@ -78,7 +78,7 @@ img {
   background-color: #4e47ff;
   color: #ffffff;
   font-weight: 700;
-  padding: 12px 36px;
+  padding: 14px 36px;
   border-radius: 10px;
   display: inline-block;
   transition: all 0.2s linear;
@@ -93,6 +93,8 @@ img {
 .pt-116 {
   padding-top: 116px;
 }
+
+
 
 /* header-section */
 
@@ -159,3 +161,78 @@ img {
 }
 
 
+/* review */
+
+.review-section{
+  text-align: center;
+}
+
+.review-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.review-item{
+  border: 1px solid #F2EDED;
+  border-radius: 24px;
+  padding: 24px;
+  text-align: left;
+}
+
+.review-stars{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.review-content{
+  margin: 24px 0;
+
+}
+.review-heading{
+  margin-bottom: 8px;
+}
+
+.review-author{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+/* template-section */
+
+.section-head{
+  text-align: center;
+}
+
+.template-section .section-detail{
+  margin: 23px 0;
+}
+
+.template-img{
+  border-radius: 48px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* mewsletter-section */
+
+.newsletter-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.newsletter-section.section-detail{
+font-size: 97px;
+}
