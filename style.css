@@ -300,4 +300,20 @@ button {
   flex-direction: column;
 }
 
-.footer-nav
+.footer-nav{
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin-top: 20px;
+  
+}
+
+.footer-nav li a{
+  font-size: 18px;
+  font-weight: 500;
+  color: #8c8e92;
+}
+
+.footer-nav li a:hover{
+  color: #4e47ff;
+}
